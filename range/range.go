@@ -9,4 +9,11 @@ func main() {
 		//%d is formating for base 10 (decimal)
 		fmt.Printf("2**%d = %d\n", i, v)
 	}
+
+	nums := []int{2, 3, 4}
+	sum := 0
+	for _, num := range nums {
+		sum += num
+	}
+
 }
