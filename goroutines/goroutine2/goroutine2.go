@@ -15,7 +15,7 @@ func count(thing string) {
 func main() {
 	go count("deer")
 	count("sheep")
-	count("fish") //this will never run because sheep will never stop running... The solution is to put
-	//in a goroutine (before the sheep)
+	count("fish") //this won't run till after the sheep stop running... The solution is to put
+	//in a goroutine (before the sheep) - then it will run at the same time
 
 }
