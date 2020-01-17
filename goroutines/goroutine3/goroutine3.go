@@ -25,7 +25,7 @@ func main() {
 		count("sheep")
 		//decrement the waitgroup counter
 		wg.Done()
-	}()
+	}() //I don't know why these parenthesis are here...
 
 	//tell the main function to wait till all the wait groups are finished
 
