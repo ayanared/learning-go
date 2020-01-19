@@ -31,3 +31,5 @@
 ## 11. Functions
 
 ## 12. Goroutines
+
+## 13. Channels
